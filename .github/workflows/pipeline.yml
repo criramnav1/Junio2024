@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_LOGIN: ${{ github.actor }}
-      GITHUB_PACKAGES: ${{ secrets.GITHUB_TOKEN }}
-      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_PACKAGES: ${{ secrets.TOKEN }}
+      GITHUB_OAUTH: ${{ secrets.TOKEN }}
     steps:
       - name: Clonando el repositorio y estableciendo el espacio de trabajo
         uses: actions/checkout@v3
@@ -52,9 +52,9 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '16'
+          java-version: '17'
       - name: Construyendo y probando el código
         run: |
           chmod +x gradlew        
           ./gradlew publish
-      - run: echo "jacjurtab final"
+      - run: echo "criramnav1 final"
