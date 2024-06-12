@@ -1,10 +1,10 @@
 /**
- * Clase a probar en el código ejemplo para el control de junio 2024
+ * Clase a probar en el cï¿½digo ejemplo para el control de junio 2024
  */
 package muit.fs.junio24;
 
 /**
- * @author Isabel Román
+ * @author Isabel Romï¿½n
  *
  */
 
@@ -21,7 +21,7 @@ public class FirstDayAtSchool {
 	}
 
 	public void prepareMyBag() {
-		schoolbag.put("Pens", 3);
+		schoolbag.put("Pens", 1);
 		schoolbag.put("Notebooks", 1);
 	}
 
